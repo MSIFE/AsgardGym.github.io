@@ -394,9 +394,10 @@ video {
 
 .get-email{
     width: 50%;
-
+    text-align: center;
+    margin-bottom: 16px;
 }
-
+/* 
 .socialmedia{
     margin-top: 24px;
     display: flex;
@@ -414,7 +415,36 @@ video {
 .socialmedia_legend{
     color: var(--black2);
     margin-right: 16px;
+} */
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
 }
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: var(--gold1);
+    color: var(--black1);
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
 
 .contact{
     display: flex;
@@ -567,6 +597,30 @@ footer .container{
     padding: none;
     justify-content: center;
 }
+
+.contenedor-footer{
+    flex-direction: row;
+    
+    align-items: center;
+} 
+
+.buttons {
+    min-width: 0;
+    display: inline;
+    justify-content: space-around;
+}
+
+.buttons a{
+    font-size: 23px;
+    width: 45px;
+    height: 45px;
+    margin: 0 20px;
+    line-height: 45px;
+    text-align: center;
+}
+
+
+
 }
 @media screen and( max-width:500px){
     .mockup{
@@ -602,6 +656,29 @@ display: none;
         justify-content: center;
     }
 }
+
+.contenedor-footer{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.buttons {
+    min-width: 0;
+    display: inline;
+    
+}
+
+.buttons a{
+    font-size: 23px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 10px;
+}
+
+
     /* .mockup{
         width: 600px;
         height: auto;
