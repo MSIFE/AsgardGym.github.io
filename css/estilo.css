@@ -380,23 +380,19 @@ video {
 .footer{
     background: #fafafa;
 }
-/* 
+
 .footer_caption{
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
-} */
+} 
 
 .title_footer{
     font-size: 24px;
     margin-bottom: 32px;
 }
 
-.get-email{
-    width: 50%;
-    text-align: center;
-    margin-bottom: 16px;
-}
+
 /* 
 .socialmedia{
     margin-top: 24px;
